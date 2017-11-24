@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<modules>
+		<module name="RadEditorStatistics" enabled="true" visible="true"/>
+		<module name="RadEditorDomInspector" enabled="false" visible="false" />
+		<module name="RadEditorNodeInspector" enabled="false" visible="false" />
+		<module name="RadEditorHtmlInspector"  enabled="false" visible="false"  />
+	</modules>
+	<tools name="File" tab="File">
+		<tool name="SaveAs" size="large" text="Save As" showtext="true">
+			<tool name="SaveAsDocx" Text="Save As DOCX"/>
+			<tool name="SaveAsRtf" Text="Save As RTF"/>
+			<tool name="SaveAsPDF" Text="Save As PDF"/>
+			<tool name="SaveAsMarkdown" Text="Save As Markdown"/>
+		</tool>
+		<tool name="Open" size="large"/>
+	</tools>
+	<tools name="Clipboard" tab="Home">
+		<tool name="PasteStrip" size="large"/>
+		<tool name="Cut" size="medium" shortcut="CTRL+X" showtext="true" />
+		<tool name="Copy" size="medium" shortcut="CTRL+C"/>
+		<tool name="FormatPainter" size="medium" />
+	</tools>
+	<tools name="Font" tab="Home">
+		<tool name="FontName" shortcut="CTRL+SHIFT+F" />
+		<tool name="Bold" strip="FontBasicTools" shortcut="CTRL+B"/>
+		<tool name="Italic" strip="FontBasicTools" shortcut="CTRL+I"/>
+		<tool name="Underline" strip="FontBasicTools" shortcut="CTRL+U"/>
+		<tool name="StrikeThrough" strip="FontBasicTools1"/>
+		<tool name="Superscript" strip="FontBasicTools1"/>
+		<tool name="Subscript" strip="FontBasicTools1"/>
+		<tool name="RealFontSize" shortcut="CTRL+SHIFT+P" />
+		<tool name="ForeColor"/>
+		<tool name="BackColor"/>
+	</tools>
+	<tools name="Paragraph" tab="Home">
+		<tool name="InsertUnorderedList" strip="ListsAndIndention"/>
+		<tool name="InsertOrderedList" strip="ListsAndIndention"/>
+		<tool name="Indent" strip="ListsAndIndention"/>
+		<tool name="Outdent" strip="ListsAndIndention"/>
+		<tool name="InsertParagraph" strip="ListsAndIndention"/>
+		<tool name="JustifyLeft" strip="Align"/>
+		<tool name="JustifyCenter" strip="Align"/>
+		<tool name="JustifyRight" strip="Align"/>
+		<tool name="JustifyFull" strip="Align"/>
+		<tool name="JustifyNone" strip="Align"/>
+		<tool name="FormatBlock" />
+	</tools>
+	<tools name="Editing" tab="Home">
+		<tool name="FindAndReplace" size="medium" text="Find" shortcut="CTRL+F"/>
+		<tool name="SelectAll" size="medium" shortcut="CTRL+A"/>
+		<tool name="FormatStripper" size="medium" showtext="true" />
+	</tools>
+	<tools name="Tables" tab="Insert">
+		<tool name="InsertTableLight" />
+		<tool name="InsertRowAbove" />
+		<tool name="InsertRowBelow" />
+		<tool name="DeleteRow" />
+		<tool name="InsertColumnLeft" />
+		<tool name="InsertColumnRight" />
+		<tool name="DeleteColumn" />
+		<tool name="SetTableProperties" />
+		<tool name="InsertTable" />
+	</tools>
+	<tools name="Images" tab="Insert">
+		<tool name="ImageManager" size="large" shortcut="CTRL+G" text="Picture" />
+	</tools>
+	<tools name="Links" tab="Insert">
+		<tool name="LinkManager" size="large" shortcut="CTRL+K" text="Hyperlink" />
+	</tools>
+	<tools name="Comments" tab="Insert">
+		<tool name="AddComment" size="large" text="Comment" />
+	</tools>
+	<tools name="Text" tab="Insert">
+		<tool name="InsertGroupbox" size="large" text="Groupbox" />
+		<tool name="InsertDate" size="medium" text="Date" />
+		<tool name="InsertTime" size="medium" text="Time" />
+	</tools>
+	<tools name="Misc" tab="Insert">
+		<tool name="InsertSymbol" />
+		<tool name="InsertFormForm" />
+		<tool name="InsertFormButton" />
+		<tool name="InsertFormCheckbox" />
+		<tool name="InsertFormHidden" />
+		<tool name="InsertFormPassword" />
+		<tool name="InsertFormRadio" />
+		<tool name="InsertFormReset" />
+		<tool name="InsertFormSelect" />
+		<tool name="InsertFormSubmit" />
+		<tool name="InsertFormTextarea" />
+		<tool name="InsertFormText" />
+	</tools>
+	<tools name="Page Setup" tab="Page Layout">
+		<tool name="PageProperties" size="large" />
+	</tools>
+	<tools name="Proof" tab="Review">
+		<tool name="AjaxSpellCheck" size="large" text="Spellcheck" />
+	</tools>
+	<tools name="Comments" tab="Review">
+		<tool name="AddComment" size="large" text="Comment" />
+		<tool name="RemoveComment" size="medium" Text="Remove comment"/>
+		<tool name="RemoveAllComments" size="medium" Text="Remove All Comments"/>
+	</tools>
+	<tools name="Tracking" tab="Review">
+		<tool Name="EnableTrackChangesOverride" size="large" text="Track Changes" />
+	</tools>
+	<tools name="Accept Changes" tab="Review">
+		<tool name="AcceptTrackChange" size="medium" Text="Accept"/>
+		<tool name="AcceptAllTrackChanges" size="medium" Text="Accept All Changes"/>
+	</tools>
+	<tools name="Reject Changes" tab="Review">
+		<tool name="RejectTrackChange" size="medium" Text="Reject"/>
+		<tool name="RejectAllTrackChanges" size="medium" Text="Reject All Changes"/>
+	</tools>
+	<tools name="Zoom" tab="View">
+		<tool name="Zoom"/>
+	</tools>
+	<tools name="Window" tab="View">
+		<tool name="ToggleScreenMode" size="large" text="Full Screen" shortcut="F11 / CMD+F11"/>
+	</tools>
+</root>
